@@ -1,27 +1,98 @@
-# FiltroUsuarios
+<h1 align="center">Filtro de Usuários</h1>
+<div align="center">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+<p align="center"><strong>Status do Projeto:<br></strong> <i>Em andamento</i> 🚧</p>
 
-## Development server
+</div>
+<p align="center">
+<span><strong>Tecnologias e Ferramentas utilizadas:</strong></span>
+<br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,angular,sass,github,git" style="height: 25px;"/>
+  </a>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Índice
 
-## Code scaffolding
+- [1. Resumo do Projeto](#1-resumo-do-projeto)
+- [2. Definição de Produto](#2-definição-de-produto)
+- [3. Instalação](#3-instalação)
+- [4. Inicialização](#4-inicialização)
+- [5. Tecnologias e Ferramentas Utilizadas](#5-tecnologias-e-ferramentas-utilizadas)
+- [6. Desafios do Projeto](#6-desafios-do-projeto)
+- [7. Desenvolvedor](#7-desenvolvedor)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 1. Resumo do Projeto
 
-## Build
+Este projeto é um desafio proposto no curso de Angular que consiste numa aplicação Angular que lista usuários de acordo com os filtros aplicados na busca. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 2. Definição de Produto
+Este projeto explora e desafia diversos conceitos fundamentais do Angular, incluindo:
 
-## Running unit tests
+- **Property Binding** e **Event Binding**
+- Criação e utilização de **Pipes**
+- **Modularização de Componentes**
+- Integração e utilização de componentes do **Angular Material**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 3. Instalação
 
-## Running end-to-end tests
+### Pré-requisitos:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Instale node
+- npm
 
-## Further help
+Para instalar as dependências no diretório do seu projeto, execute o seguinte comando:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+npm install
+```
+
+## 4. Inicialização
+
+Para iniciar o aplicativo, execute o seguinte comando:
+
+```
+ng serve
+```
+
+## 5. Tecnologias e Ferramentas Utilizadas
+
+Este site foi construído com:
+
+- JavaScript
+- TypeScript
+- Angular
+- Angular Material
+- SASS
+
+## 6. Desafios do Projeto
+
+- Requisitos 
+
+  - [✔️] Criar um readme do projeto;
+  
+  - [🚧] Deve Utilizar componentes do Angular Material;
+  
+  - [🚧] Deve conter um arquivo com os usuários e listá-los a partir deste arquivo;
+
+  - [🚧] Deve possuir três filtros para a listagem;
+
+  - [🚧] Ter um display que exiba mais informações sobre os usuários;
+
+  - [🚧] Estar devidamente responsivo para outras dimensões de dispositivos;
+
+- Extras
+
+  - [🚧] Usuários devem estar em um banco de dados;
+
+  - [🚧] A aplicação deverá resgatar usuários do banco de dados; 
+
+  - [🚧] Busca de usuários por nome;
+  
+## 7. Desenvolvedor
+
+Este projeto foi proposto no curso de Angular V.2 ao V.17
+
+Desenvolvido por:
+
+**João Zacarias** : [LinkedIn](https://br.linkedin.com/in/joão-zacarias-neto-593441237) | [GitHub](https://github.com/joao-zac)
