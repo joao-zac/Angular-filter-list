@@ -2,18 +2,21 @@ import { NgModule } from "@angular/core"
 import { angularMaterialModule } from "../angular-material/angular-material.module";
 import { FiltersComponent } from './filters/filters.component';
 import { UsersDisplayComponent } from './users-display/users-display.component';
+import { UsersDetailsComponent } from './users-details/users-details.component';
 
 @NgModule({
     declarations: [
       FiltersComponent,
-      UsersDisplayComponent
+      UsersDisplayComponent,
+      UsersDetailsComponent
     ],
     imports: [
       angularMaterialModule
     ],
     exports: [
       FiltersComponent,
-      UsersDisplayComponent
+      UsersDisplayComponent,
+      UsersDetailsComponent
     ]
 })
 export class ComponentsModule {
