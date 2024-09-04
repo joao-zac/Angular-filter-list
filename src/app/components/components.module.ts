@@ -3,6 +3,7 @@ import { angularMaterialModule } from "../angular-material/angular-material.modu
 import { FiltersComponent } from './filters/filters.component';
 import { UsersDisplayComponent } from './users-display/users-display.component';
 import { UsersDetailsComponent } from './users-details/users-details.component';
+import { NgFor } from "@angular/common"
 
 @NgModule({
     declarations: [
@@ -11,7 +12,8 @@ import { UsersDetailsComponent } from './users-details/users-details.component';
       UsersDetailsComponent
     ],
     imports: [
-      angularMaterialModule
+      angularMaterialModule,
+      NgFor
     ],
     exports: [
       FiltersComponent,

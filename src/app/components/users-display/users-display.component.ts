@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UsersList } from "../../data/users-list"
 
 @Component({
   selector: 'app-users-display',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './users-display.component.scss'
 })
 export class UsersDisplayComponent {
+  Users = UsersList
 
 }
