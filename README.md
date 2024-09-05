@@ -71,13 +71,13 @@ Este site foi construído com:
 
   - [✔️] Criar um readme do projeto;
   
-  - [🚧] Deve Utilizar componentes do Angular Material;
+  - [✔️] Deve Utilizar componentes do Angular Material;
   
-  - [🚧] Deve conter um arquivo com os usuários e listá-los a partir deste arquivo;
+  - [✔️] Deve conter um arquivo com os usuários e listá-los a partir deste arquivo;
 
-  - [🚧] Deve possuir três filtros para a listagem;
+  - [✔️] Deve possuir três filtros para a listagem;
 
-  - [🚧] Ter um display que exiba mais informações sobre os usuários;
+  - [✔️] Ter um display que exiba mais informações sobre os usuários;
 
   - [🚧] Estar devidamente responsivo para outras dimensões de dispositivos;
 
