@@ -7,9 +7,11 @@ import { IUser } from './interfaces/user';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  selected: IUser | null = null;
+  selected: IUser = {} as IUser;
+  showUserDetails = false
 
-  handlePassUser($event: IUser) {
-    this.selected = $event;
+  handlePassUser(user: IUser) {
+    this.selected = user;
+    this.showUserDetails = true
   }
 }

@@ -7,5 +7,5 @@ import { IUser } from '../../interfaces/user';
   styleUrl: './users-details.component.scss'
 })
 export class UsersDetailsComponent {
-  selectedUser = input<IUser | null>()
+  selectedUser = input.required<IUser>({ }) 
 }
