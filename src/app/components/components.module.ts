@@ -5,7 +5,7 @@ import { FiltersComponent } from './filters/filters.component';
 import { UsersDisplayComponent } from './users-display/users-display.component';
 import { UsersDetailsComponent } from './users-details/users-details.component';
 
-// import { PhonenumberPipe } from "../pipes/phonenumber.pipe";
+import { PipesModule } from "../pipes/pipes.module";
 
 @NgModule({
     declarations: [
@@ -16,7 +16,7 @@ import { UsersDetailsComponent } from './users-details/users-details.component';
     imports: [
       angularMaterialModule,
       NgFor,
-      // PhonenumberPipe
+      PipesModule
     ],
     exports: [
       FiltersComponent,
