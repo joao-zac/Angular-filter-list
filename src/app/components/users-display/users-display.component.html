@@ -8,7 +8,7 @@
     </thead>
 
     <tbody>
-        <tr *ngFor="let user of Users">
+        <tr *ngFor="let user of Users" (click)="handleClick(user)">
             <td>{{ user.nome }}</td>
             <td>{{ user.dataCadastro }}</td>
             <td>{{ user.ativo }}</td>

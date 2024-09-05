@@ -5,11 +5,11 @@
         </div>
         
         <div class="main-left-div">
-            <app-users-display />
+            <app-users-display (passUser)="handlePassUser($event)"/>
         </div>
     </div>
 
     <div class="right-div">
-        <app-users-details />
+        <app-users-details [selectedUser]="selected"/>
     </div>
 </main>
