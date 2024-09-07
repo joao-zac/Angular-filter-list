@@ -4,6 +4,7 @@ import { angularMaterialModule } from "../angular-material/angular-material.modu
 import { FiltersComponent } from './filters/filters.component';
 import { UsersDisplayComponent } from './users-display/users-display.component';
 import { UsersDetailsComponent } from './users-details/users-details.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { PipesModule } from "../pipes/pipes.module";
 
@@ -16,7 +17,8 @@ import { PipesModule } from "../pipes/pipes.module";
     imports: [
       angularMaterialModule,
       NgFor,
-      PipesModule
+      PipesModule,
+      ReactiveFormsModule
     ],
     exports: [
       FiltersComponent,

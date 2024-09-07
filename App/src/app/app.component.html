@@ -1,11 +1,11 @@
 <main>
     <div class="left-container">
         <div class="top-div">
-            <app-filters />
+            <app-filters (onFilter)="onFilter($event)"/>
         </div>
         
         <div class="main-left-div">
-            <app-users-display (passUser)="handlePassUser($event)"/>
+            <app-users-display [usersList]="filteredUsersList" (passUser)="handlePassUser($event)"/>
         </div>
     </div>
 
