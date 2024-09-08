@@ -5,7 +5,7 @@
     <li><b>Email: </b>{{ selectedUser().email }}</li>
     <li><b>Telefone: </b>{{ selectedUser().telefone | phonenumber }}</li>
     <li><b>Endereço: </b>{{ selectedUser().endereco.rua }}, {{ selectedUser().endereco.numero}}, {{ selectedUser().endereco.cidade}} - {{ selectedUser().endereco.estado}} </li>
-    <li><b>Status: </b>{{ selectedUser().status.assinaturaAtiva | status}}</li>
+    <li><b>Status: </b>{{ selectedUser().ativo | status}}</li>
     <li><b>Função: </b>{{ selectedUser().funcao }}</li>
     <li><b>Data de cadastro: </b>{{ selectedUser().dataCadastro | date:'dd/MM/yyyy'}}</li>
 </ul>

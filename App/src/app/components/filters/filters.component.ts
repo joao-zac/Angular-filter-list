@@ -9,7 +9,7 @@ import { IFilterform } from '../../interfaces/filterform';
 })
 export class FiltersComponent {
   filterOptions: IFilterform = {
-    name: '', //trocar pra | undefined
+    name: '', 
     date: {
       start: undefined,
       end: undefined,
